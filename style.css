@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'poppins';
+  src: url("Poppins-Regular.ttf") format("truetype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.my-envelope {
+  width: 100%;
+  height: 100vh;
+  background: #eee;
+  position: absolute;
+  /* display: none; */
+  z-index: 1;
+}
+
+.my-envelope img {
+  width: 80%;
+  margin-left: 10%;
+  float: left;
+}
+
+.my-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url("Pink\ Watercolor\ Background\ Images\ _\ Free\ iPhone\ &\ Zoom\ HD\ Wallpapers\ &\ Vectors\ -\ rawpixel.jfif");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.my-header {
+  width: 150px;
+  height: 40px;
+  background: #ff9d94;
+  position: absolute;
+  top: 20px;
+  left: -30px;
+  transform: skewX(-25deg);
+}
+
+.my-header p {
+  position: absolute;
+  left: 40px;
+  font-family: 'shine';
+  font-size: 20pt;
+
+}
+
+.line1 {
+  width: 200px;
+  height: 3px;
+  background: #ff9d94;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.line2 {
+  width: 3px;
+  height: 350px;
+  background: #ff9d94;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.my-canva {
+  width: 100%;
+  height: calc(100vh - 60px);
+  padding: 20px;
+  overflow: scroll;
+  float: left;
+  margin-top: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+.my-text {
+  margin-top: -25px;
+}
+
+.my-text p {
+  font-family: 'poppins';
+  font-size: 11pt;
+  color: #555;
+  display: inline-block;
+}

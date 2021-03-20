@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zumi</title>
+    <!-- <link rel="stylesheet" href="./dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="my-envelope">
+        <img class="my-envelope-image" src="open-envelope-red-blue-background_79727-81-removebg-preview.png" alt="">
+    </div>
+    <audio id="my-song" autoplay loop>
+        <source src="You Are The Reason - Calum Scott (Desmond Amos ft. Justin Ward).mp3" type="audio/mpeg">
+    </audio>
+    <div class="my-wrapper">
+        <!-- <div class="line1"></div>
+        <div class="line2"></div> -->
+        <div class="my-canva">
+            <div class="my-text">
+                <p>
+                    Assalamualaikum Ismi, 
+                    <br> Gimana nih kabarnya? Baik-baik aja kan? Aku harap sihh baik-baik aja, begitupun sama keluarga. Do'aku selalu menyertai mu kok. 
+                    <br> Mungkin ada sedikit yang pengen aku bahas. Kita obrolin lah bareng bareng. Sebenernya mah pengen bahas ini tuh dari kemaren", tapi gimana ya aku tuh selalu ngerasa ga punya kapasitas buat nanyain hal ini tuh, selalu ngerasa "siapa aku?" gitu yakan. Tapi kenapa hal ini bisa terjadi ya mungkin aku punya kapasitas untuk hal ini, kalo ngga mah bakal biasa-biasa aja ya kan.
+                    <br> Akhir akhir ini tuh kamu sering nyuekin chat dari aku gitu, why? Aku juga tau sebenernya kamu tau ada notif dari aku cuma ya mungkin kamu lagi sibuk, atau ya mungkin emang lagi males i don't know.
+                    <br> Gini, sebenarnya mah bukan kesel, marah atau gmna. Cuma ini tuh jadi timbul pertanyaan baru buat aku, kenapa kaya gitu? Apakah ada yg salah? Apa aku ngelakuin kesalahan?
+                    <br> Gini, sebenarnya mah bukan kesel, marah atau gmna. Cuma ini tuh jadi timbul pertanyaan baru buat aku, kenapa kaya gitu? Apakah ada yg salah? Apa aku ngelakuin kesalahan?
+                    <br> Mungkin bakal aku bawa balik dulu, di awal-awal kita tuh pernah membuat sebuah komitmen yakan. Tapi ngerasa kan kalo kita tuh flat-flat aja? Gini gini aja, gapernah ngelakuin suatu hal atau bahkan ada obrolan yang mengarah ke sana? Kalo dari aku pribadi jujur aku minta maaf, aku gapernah buka obrolan tentang hubungan ini, gapernah ngajak keluar atau apa gitu, aku juga belum bisa ngetreat kamu dengan baik, belum bisa memperlakukan kamu layaknya orang yang aku sayang, sekali lagi aku minta maaf.
+                    <br> Atau mungkin kamu mempertanyakan kebenaran dari perasaan ini? Apakah hanya omong belaka atau hanya sebuah Gimik? Karena kamu belum pernah denger langsung dan bahkan ngga dapet perlakuan selayaknya orang yg dicintai?
+                    <br> No, jujur perasaan aku ke kamu tuh emang nyata adanya, dan semua cerita kalo perasaan ini tuh dari kelas 1, itu semuanya bener. Cuma ya aku sadar, aku juga mengakui kalo aku belum bisa memperlakukan kamu dengan baik, sekali lagi minta maaf.
+
+                    <br> Balik lagi, sebenernya mah ga terlalu jadi masalah sih soal chat ini mah, cuma ya aku takutnya ada salah gitu. Ya mungkin itu tadi kesalahan nya.
+                    <br> Gini, sebelumnya aku mah selalu mencernanya dengan positif dulu. Masalah yg chat, ya kalo siang aku mikirnya lagi sibuk di toko, toh aku juga kadang suka males balesin wa gitu kalo emang lagi sibuk. kalo malem pas dirumah aku mikirnya ya mungkin cape pengen istirahat atau lagi pengen ngelakuin sesuatu kaya kemaren yg bikin acrylic. Atau malem pas lagi dimes, aku mikirnya nya kan lagi ngumpul sama anak" yang lain lagi ngobrol kadang juga aku kalo lagi ngumpul suka males balesin chat. Selalu mikir yang positif aku mah sebelumnya, ga pernah mikir yang aneh".
+                    <br> Sampe dititik yang kemaren, kalo ga salah kamu teh bikin sg ini "talk to someone who make u smile" ya kan, nah disini aku udh mikir yg aneh" karena tadi aku sadar aku belum bisa memperlakukan kamu dengan baik. Kenapa ga langsung ditanggepin? Balik lagi, aku ngerasa ga punya kapasitas buat bahas hal ini.
+                    <br> Tapi mungkin sekarang aku ngeberaniin diri buat bahas hal ini, yang penting mah ngomong dulu pusingnya mah belakangan. 
+                    <br> Sebenarnya ini cuma masalah aksi reaksi aja yakan, kamu gamungkin kaya gitu kalo emang dari akunya bisa ngetreat kamu dengan baik. Sekali lagi aku minta maaf.
+                    <br> Ya mungkin buat kedepannya aku juga bakal berubah, pelan-pelan. Gamungkin bakal gini-gini aja. Jujur,<b> i don't wanna lose u for the second time mi</b>. Udah cukup ngerasain sakitnya kehilangan kamu, walaupun pada saat itu aku percaya tapi ya tetep sakitnya mah.
+                    <br> Jadi kemana-mana ya duhh. Intinya aku bener-bener minta maaf.
+
+                    <br> <br> Good Night,
+
+                    <br> <br> Zumi.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <script src="./dist/js/bootstrap.min.js"></script> -->
+    <script src="jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var mHeight = $(window).height();
+            var h = (mHeight/2) - ($('.my-envelope-image').height()/2);
+            $('.my-envelope-image').css("margin-top", h);
+        
+            $(".my-envelope-image").click(function(){
+                var x = document.getElementById("my-song");
+                x.play();
+                $(".my-envelope").fadeOut(1000, function(){
+                    
+                });
+            })
+        });
+    </script>
+</body>
+</html>
